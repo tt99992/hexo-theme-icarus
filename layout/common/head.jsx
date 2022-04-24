@@ -31,7 +31,7 @@ function getPageTitle(page, siteTitle, helper) {
 module.exports = class extends Component {
     render() {
         const { site, config, helper, page } = this.props;
-        const { url_for, cdn, fontcdn, iconcdn, is_post, iconfontcdn} = helper;
+        const { url_for, cdn, fontcdn, iconcdn, is_post } = helper;
         const {
             url,
             head = {},
@@ -176,7 +176,10 @@ module.exports = class extends Component {
 
             {followItVerificationCode ? <meta name="follow.it-verification-code" content={followItVerificationCode} /> : null}
             {/* icon-font 补充图标 */}
-            <link rel="stylesheet" href={iconfontcdn()} />
+            <link rel="stylesheet" href="//at.alicdn.com/t/font_3355899_di480i4a4d.css"/>
+            {/* Google AdSense */}
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1060496640954874"
+     crossorigin="anonymous"></script>
         </head>;
     }
 };

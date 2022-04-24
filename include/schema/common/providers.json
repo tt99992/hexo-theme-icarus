@@ -21,11 +21,6 @@
             "description": "Name or URL of the fontawesome icon font CDN provider",
             "default": "fontawesome",
             "nullable": true
-        },
-        "iconfontcdn": {
-            "type": "string",
-            "description": "Name or URL of the iconfont icon font CDN provider",
-            "nullable": true
         }
     }
 }
