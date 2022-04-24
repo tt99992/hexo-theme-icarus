@@ -175,6 +175,8 @@ module.exports = class extends Component {
                 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script> : null}
 
             {followItVerificationCode ? <meta name="follow.it-verification-code" content={followItVerificationCode} /> : null}
+            {/* icon-font 补充图标 */}
+            <link rel="stylesheet" href="//at.alicdn.com/t/font_3355899_di480i4a4d.css"/>
         </head>;
     }
 };
