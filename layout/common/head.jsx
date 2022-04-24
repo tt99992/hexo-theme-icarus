@@ -172,7 +172,7 @@ module.exports = class extends Component {
             <Plugins site={site} config={config} helper={helper} page={page} head={true} />
 
             {adsenseClientId ? <script async crossorigin="anonymous"
-                src={"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"+adsenseClientId} ></script> : null}
+                src={"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?"+adsenseClientId} ></script> : null}
 
             {followItVerificationCode ? <meta name="follow.it-verification-code" content={followItVerificationCode} /> : null}
 

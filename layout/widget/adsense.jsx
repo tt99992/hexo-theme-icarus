@@ -3,7 +3,7 @@
  * @module view/widget/adsense
  */
 const { Component } = require('inferno');
-const { cacheComponent } = require('../../util/cache');
+const { cacheComponent } = require('hexo-component-inferno/lib/util/cache');
 
 /**
  * Google AdSense widget JSX component.
@@ -32,7 +32,7 @@ class AdSense extends Component {
             <div class="card-content">
                 <div class="menu">
                     <h3 class="menu-label">{title}</h3>
-                    <script async src={"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"+clientId} crossorigin="anonymous"></script>
+                    <script async src={"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?"+clientId} crossorigin="anonymous"></script>
                     <ins class="adsbygoogle"
                         style="display:block"
                         data-ad-client={clientId}
