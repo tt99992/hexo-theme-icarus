@@ -17,12 +17,10 @@ function setClipboardText(event) {
     // format: 一个DOMString 表示要添加到 drag object的拖动数据的类型。
     // data: 一个 DOMString表示要添加到 drag object的数据。
     var copyright =
-      "\n\n" +
-      "\n著作权归作者所有。" +
-      "\n商业转载请联系作者获得授权，非商业转载请注明出处。" +
-      "\n作者: 只是学习学习" +
-      "\n邮箱: fengzxia1000@163.com" +
-      "\n原文地址: <%= page.permalink %>";
+      "\n" +
+      "\n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。" +
+      "\n来源: " + document.title +
+      "\n原文地址: " + window.location.href;
 
     clipboardData.setData("text/plain", text + copyright);
   }
