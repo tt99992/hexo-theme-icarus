@@ -29,7 +29,7 @@
   "dependencies": {
     "hexo": "^6.3.0",
     "bulma-stylus": "0.8.0",
-    "deepmerge": "^4.2.2",
+    "deepmerge": "^4.3.1",
     "hexo-component-inferno": "^2.0.3",
     "hexo-log": "^3.2.0",
     "hexo-pagination": "^3.0.0",
@@ -37,8 +37,8 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-util": "^2.7.0",
     "inferno": "^8.0.4",
-    "inferno-create-element": "^8.0.4",
+    "inferno-create-element": "^8.2.2",
     "moment": "^2.29.4",
-    "semver": ">=7.3.8"
+    "semver": ">=7.5.4"
   }
 }
